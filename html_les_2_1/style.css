@@ -17,30 +17,63 @@
 
 .tile:nth-child(4) {
     top: 275px;
+    border-radius: 20%;
+    border: 10px solid darkblue;
+    font-size:100px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.tile4:hover {
+    background-color: red;
+    color: white;
 }
 
 .tile:nth-child(5) {
     top: 275px;
     left: 220px;
+    border-radius: 100%;
+    border: 10px dashed black;
+    font-size:100px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.tile5:hover {
+    background-color: yellow;
+    color: green;
 }
 
 .tile:nth-child(6) {
     top: 275px;
     left: 435px;
+    border-radius: 20%;
+    border: 10px solid darkblue;
+    font-size:100px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.tile6:hover {
+    background-color: black;
+    color: white;
 }
 
 .tile:nth-child(7) {
     top: 490px;
+    cursor: pointer;
 }
 
 .tile:nth-child(8) {
     top: 490px;
     left: 220px;
+    cursor: pointer;
 }
 
 .tile:nth-child(9) {
     top: 490px;
     left: 435px;
+    width: 900px;
 }
 
 header {
@@ -98,3 +131,28 @@ footer {
         left: 10px;
     }
 }
+.tile:nth-child(9) > p {
+    column-count: 3;
+    column-rule-color: darkblue;
+    column-rule-width: 5px;
+    color: black;   
+    column-rule-style: solid;
+}
+
+.cawfee-img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.choco-img {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+.side-eye-gif {
+ width: 200px;
+ height: 200px;
+}
+
