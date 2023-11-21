@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header>h1 {
+    color: white;
+    background-color: grey;
+    border: solid grey;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: white;
+    background-color: grey;
+    border: solid grey;
+    margin-left: 410px;
+    margin-right: 410px;
+}
+p {
+    color: white;
+    background-color: grey;
+    border: solid grey;
+    margin-left: 410px;
+    margin-right: 410px;
+}
+.card {
+    color: white;
+    background-color: grey;
+    border: solid grey;
+    margin-left: 410px;
+    margin-right: 410px;
+}
