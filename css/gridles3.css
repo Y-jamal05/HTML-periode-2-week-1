@@ -1,0 +1,54 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --background-color-box: rgba(255,165,0,0.4);
+    --box-border-color: rgb(255,165,0);
+}
+
+.box {
+    background-color: var(--background-color-box);
+    border: 2px solid var(--box-border-color);
+}
+
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "hd"
+    "nv"
+    "lsb"
+    "mn"
+    "rsb"
+    "ad"
+    "ftr";
+}
+
+.header {
+    grid-area: hd;
+}
+
+.nav {
+    grid-area: nv;
+}
+
+.lsd {
+    grid-area: lsb;
+}
+
+.main {
+    grid-area: mn;
+}
+
+.rsb {
+    grid-area: rsb;
+}
+
+.ad {
+    grid-area: ad;
+}
+
+.footer {
+    grid-area: ftr;
+}
+
